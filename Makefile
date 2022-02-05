@@ -21,3 +21,7 @@ debug:
 test:
 	$(CC) $(CWARNS) -g src/main.c -o bin/test $(CFLAGS)
 	bin/test
+
+
+valgrind:
+	valgrind bin/test

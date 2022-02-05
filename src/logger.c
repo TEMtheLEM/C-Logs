@@ -22,7 +22,12 @@ char *CurrentTimeInfo() {
 }
 
 void Log(const char *msg_clr, const char *msg, const char *suff_clr, const char *suff) {
-	char suffix[(suff ? strlen(suff) : 0) + strlen(COLOUR_RESET) + (suff_clr ? strlen(suff_clr) : 0) + sizeof ": "];
+	/** 7 bytes more are added to the buffer to accomadate for;
+	 *  a null character (1),
+	 *  ": " (2),
+	 *  and COLOUR_RESET; "\033[0m" (4)
+	 */
+	char suffix[(suff ? strlen(suff) : 0) + (suff_clr ? strlen(suff_clr) : 0) + 7];
 	if (suff)
 		sprintf(suffix, "%s%s%s%s", suff_clr ? suff_clr : "", suff, COLOUR_RESET, ": ");
 	else
