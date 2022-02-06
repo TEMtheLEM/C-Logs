@@ -1,4 +1,13 @@
-// Begin of logger.h
+/**
+ * @file logger.h
+ * @author Connor Inch (cinch01@outlook.com)
+ * @brief The header needed to use this library.
+ * @version 1.0
+ * @date 2022-02-05
+ * 
+ * @copyright Copyright (c) Connor Inch 2022
+ */
+
 #pragma once
 
 void Log(const char *msg_clr, const char *msg, const char *suff_clr, const char *suff);

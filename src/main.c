@@ -1,3 +1,13 @@
+/**
+ * @file main.c
+ * @author Connor Inch (cinch01@outlook.com)
+ * @brief A bunch of tests for the library.
+ * @version 1.0
+ * @date 2022-02-05
+ * 
+ * @copyright Copyright (c) Connor Inch 2022
+ */
+
 #include "logger.h"
 #include "colours.h"
 #include <stdio.h>
@@ -21,3 +31,5 @@ int main(int argc, char **argv) {
 
 	return 0;
 }
+
+// End of main.c

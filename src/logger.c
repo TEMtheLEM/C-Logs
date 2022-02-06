@@ -1,3 +1,13 @@
+/**
+ * @file logger.c
+ * @author Connor Inch (cinch01@outlook.com)
+ * @brief The source code of the library.
+ * @version 1.0
+ * @date 2022-02-05
+ * 
+ * @copyright Copyright (c) Connor Inch 2022
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -58,3 +68,5 @@ void LogWarning(const char *msg) {
 void LogError(const char *msg) {
 	Log(ITALIC_WHITE, msg, BOLD_RED, "ERROR");
 }
+
+// End of logger.c
