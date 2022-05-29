@@ -1,6 +1,6 @@
 /**
  * @file logger.h
- * @author Connor Inch (cinch01@outlook.com)
+ * @author Connor Inch  <conninch@protonmail.com>
  * @brief The header needed to use this library.
  * @version 1.0
  * @date 2022-02-05

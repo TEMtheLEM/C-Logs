@@ -1,6 +1,6 @@
 /**
  * @file main.c
- * @author Connor Inch (cinch01@outlook.com)
+ * @author Connor Inch  <conninch@protonmail.com>
  * @brief A bunch of tests for the library.
  * @version 1.0
  * @date 2022-02-05
