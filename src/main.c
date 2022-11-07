@@ -13,7 +13,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char **argv) {
+int main() {
 	LogInfo("A VERY informative message");
 	LogOk("Everything works!");
 	LogWarning("But something appears janky...");
